@@ -22,5 +22,5 @@ Unfortunately [Pocket's import from Instapaper](https://getpocket.com/import/ins
 4. Run the script
 
   ```
-  node instapaper2pocket.js instapaper-export.html -c YOUR_CONSUMER_KEY -a YOUR_ACCESS_TOKEN
+  node instapaper2pocket.js -f instapaper-export.html -c YOUR_CONSUMER_KEY -a YOUR_ACCESS_TOKEN
   ```
