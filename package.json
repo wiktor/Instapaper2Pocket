@@ -1,0 +1,13 @@
+{
+  "name": "instapaper2pocket",
+  "description": "Handy script to migrate your Instapaper account to Pocket",
+  "author": "Wiktor Gworek <hi@wiktorgworek.com>",
+  "dependencies": {
+    "cheerio": "0.19.0",
+    "curry": "1.2.0",
+    "lodash": "3.7.0",
+    "node-getpocket": "1.0.0",
+    "promise": "7.0.1"
+  },
+  "engine": "node >= 0.10"
+}
