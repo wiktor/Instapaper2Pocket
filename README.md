@@ -7,6 +7,8 @@ Unfortunately [Pocket's import from Instapaper](https://getpocket.com/import/ins
  - All archived articles are added as archived in Pocket obviously.
  - Order of articles in Pocket will be the same as in Instapaper.
  
+Also this script makes fun use of promises and currying. Good learning.
+
 ## Usage
 
 1. [Obtain consumer key](http://getpocket.com/developer/apps/new) to access Pocket API. Make sure to give it all permissions (add, modify, retrieve) and select `Desktop (other)` as platform.
@@ -24,3 +26,4 @@ Unfortunately [Pocket's import from Instapaper](https://getpocket.com/import/ins
   ```
   node instapaper2pocket.js -f instapaper-export.html -c YOUR_CONSUMER_KEY -a YOUR_ACCESS_TOKEN
   ```
+5. Voilà
